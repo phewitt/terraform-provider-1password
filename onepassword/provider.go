@@ -16,8 +16,8 @@ import (
 	"sync"
 
 	"github.com/Masterminds/semver"
-	"github.com/hashicorp/terraform/helper/schema"
-	"github.com/hashicorp/terraform/terraform"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/terraform"
 )
 
 var version string = "0.7.1"

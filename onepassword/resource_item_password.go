@@ -3,7 +3,7 @@ package onepassword
 import (
 	"errors"
 
-	"github.com/hashicorp/terraform/helper/schema"
+	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 )
 
 func resourceItemPassword() *schema.Resource {
